@@ -1,29 +1,11 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
+#include "Counter.h"
 
 using namespace std;
 
-class Counter {
-private:
-	int num;
-public:
-	Counter() {
-		num = 1;
-	}
-	Counter(int num) {
-		this->num = num;
-	}
-	void add() {
-		num++;
-	}
-	void sub() {
-		num--;
-	}
-	void show() {
-		cout << num << endl;
-	}
-};
+
 
 
 
